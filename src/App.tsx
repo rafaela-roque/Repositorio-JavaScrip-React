@@ -14,7 +14,7 @@ export default function App(){
         <Routes>
             <Route path="/" element={<Home/>} />
             <Route path="/produtos" element={<ListaProdutos/>}/>
-            <Route path="/detalheProdutos" element={<DetProdutos/>} />
+            <Route path="/detProdutos" element={<DetProdutos/>} />
             <Route path="/Login" element={<Login/>} />
             <Route path="/AdmProdutos" element={<AdmProdutos/>} />
             <Route path="*" element={<img className="container-notfound" src="https://www.dochipo.com/wp-content/uploads/2024/01/404-Error-Animation-4.gif" alt="Imagem de não encontrado"/>}/>
